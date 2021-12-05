@@ -62,6 +62,7 @@
             this.tabControlTaiChinh = new DevComponents.DotNetBar.TabControl();
             this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.circularProgressBar1 = new CircularProgressBar.CircularProgressBar();
@@ -81,7 +82,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tabItem1 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.pnl_Menu.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.pnl_Menu_Trangchu.SuspendLayout();
@@ -95,6 +96,7 @@
             this.tabControlTaiChinh.SuspendLayout();
             this.tabControlPanel1.SuspendLayout();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -102,7 +104,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_Menu
@@ -550,6 +551,7 @@
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.panel11.Controls.Add(this.button3);
             this.panel11.Controls.Add(this.pictureBox5);
             this.panel11.Controls.Add(this.panel6);
             this.panel11.Controls.Add(this.panel5);
@@ -561,6 +563,15 @@
             this.panel11.Size = new System.Drawing.Size(1128, 585);
             this.panel11.TabIndex = 15;
             this.panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.panel11_Paint);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::QuanLyQuanCafe.Properties.Resources.calendar;
+            this.pictureBox5.Location = new System.Drawing.Point(828, 126);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox5.TabIndex = 9;
+            this.pictureBox5.TabStop = false;
             // 
             // panel6
             // 
@@ -798,14 +809,14 @@
             this.tabItem1.Name = "tabItem1";
             this.tabItem1.Text = "Home";
             // 
-            // pictureBox5
+            // button3
             // 
-            this.pictureBox5.Image = global::QuanLyQuanCafe.Properties.Resources.calendar;
-            this.pictureBox5.Location = new System.Drawing.Point(828, 126);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
+            this.button3.Location = new System.Drawing.Point(828, 183);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -838,6 +849,7 @@
             this.tabControlTaiChinh.ResumeLayout(false);
             this.tabControlPanel1.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
@@ -849,7 +861,6 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -908,6 +919,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Button button3;
     }
 }
 
