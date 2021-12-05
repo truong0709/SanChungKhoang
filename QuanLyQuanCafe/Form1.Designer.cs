@@ -81,6 +81,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tabItem1 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.button3 = new System.Windows.Forms.Button();
             this.pnl_Menu.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.pnl_Menu_Trangchu.SuspendLayout();
@@ -548,6 +549,7 @@
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.panel11.Controls.Add(this.button3);
             this.panel11.Controls.Add(this.panel6);
             this.panel11.Controls.Add(this.panel5);
             this.panel11.Controls.Add(this.panel7);
@@ -795,6 +797,15 @@
             this.tabItem1.Name = "tabItem1";
             this.tabItem1.Text = "Home";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(849, 107);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -894,6 +905,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button3;
     }
 }
 
