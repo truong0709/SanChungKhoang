@@ -31,5 +31,10 @@ namespace QuanLyQuanCafe.UserControl
         {
             dongTab();
         }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

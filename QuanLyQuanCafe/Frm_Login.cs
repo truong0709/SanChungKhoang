@@ -20,13 +20,18 @@ namespace QuanLyQuanCafe
 
         private void btn_Dangnhap_Click(object sender, EventArgs e)
         {
-            Form1 frm = new Form1();
-            frm.Show();
+            //Form1 frm = new Form1();
+            //frm.ShowDialog();
         }
 
         private void btn_Dangky_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Frm_Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

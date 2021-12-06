@@ -46,8 +46,8 @@ namespace QuanLyQuanCafe
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Frm_Login frm_Login = new Frm_Login();
-            //frm_Login.ShowDialog();
+            Frm_Login frm_Login = new Frm_Login();
+            frm_Login.ShowDialog();
             LoadMenu();
 
         }
